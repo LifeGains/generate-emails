@@ -19,9 +19,9 @@ def generate_emails(names):
     return emails
 
 names_list = \
-    ["jessica karlberg airtable", 
-     "jenny yu airtable", 
-     "jake dombroski airtable"]
+    ["firstname lastname company", 
+     "firstname lastname company", 
+     "firstname lastname company"]
 all_emails = generate_emails(names_list)
 for email in all_emails:
     print(email)
